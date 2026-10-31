@@ -1,0 +1,65 @@
+<title>English Lab</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="theme-color" content="#E7EBEC">
+<meta name="apple-mobile-web-app-title" content="English Lab">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+/* Layout: phone = one column + bottom tab bar; desktop (≥900px) = sidebar + ~70ch reading column.
+   Colours below are the defaults (muted green accent); theme.js recomputes them from the chosen accent. */
+:root {
+  --bg: #E7EBEC;
+  --surface: #FFFFFF;
+  --soft: #E2E8E7;
+  --line: #DBDFE2;
+  --fg: #1C1C1E;
+  --muted: #6B6B70;
+  --accent: #3B7A63;
+  --accent-strong: #2E5F4D;
+  --on-accent: #FFFFFF;
+  --mark: #D8E4E0;
+  --danger: #B3261E;
+  --font-ui: Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-read: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --radius: 16px;
+  --radius-s: 12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #151A1A; --surface: #1E2425; --soft: #293434; --line: #2F3537;
+    --fg: #ECECEE; --muted: #9D9DA4; --accent: #7AA595; --accent-strong: #ACC8BE; --on-accent: #121315; --mark: #233E36; --danger: #F2B8B5;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #151A1A; --surface: #1E2425; --soft: #293434; --line: #2F3537;
+    --fg: #ECECEE; --muted: #9D9DA4; --accent: #7AA595; --accent-strong: #ACC8BE; --on-accent: #121315; --mark: #233E36; --danger: #F2B8B5;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); }
+</style>
+<link rel="stylesheet" href="css/base.css">
+
+<div id="app">
+  <aside class="side" aria-label="English Lab">
+    <a class="brand" href="#today">English Lab</a>
+    <nav id="side-nav" class="side-nav" aria-label="Main"></nav>
+    <a class="side-link prefs-link" href="#prefs">Preferences</a>
+  </aside>
+  <div class="main-col">
+    <p id="banner" class="banner" hidden></p>
+    <main id="view">
+      <div class="page today">
+        <header class="page-head"><div class="page-title"><p class="eyebrow">ENGLISH LAB</p><h1>Today</h1></div></header>
+        <p class="muted">Loading your words, essays and today’s reading…</p>
+      </div>
+    </main>
+  </div>
+  <div id="mini" class="mini" hidden></div>
+  <nav id="tabs" class="tabs" aria-label="Main"></nav>
+</div>
+<div id="selbar" class="selbar" hidden></div>
+<div id="sheet-root" hidden></div>
+<div id="toast" class="toast" role="status" hidden></div>
+<script type="module" src="js/main.js"></script>

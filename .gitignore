@@ -1,0 +1,14 @@
+# Audio never goes into git: the cloud (artifact assets) is the only copy
+pipeline/work/
+*.mp3
+*.m4a
+*.mp4
+*.wav
+*.webm
+*.opus
+# whisper.cpp models
+pipeline/models/
+*.bin
+# OS / editor
+.DS_Store
+node_modules/

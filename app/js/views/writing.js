@@ -46,7 +46,7 @@ function figureView(fig) {
       fig.caption ? h('figcaption', null, fig.caption) : null,
       h('div', { class: 'table-wrap' }, h('table', null,
         h('thead', null, h('tr', null, ...fig.columns.map((c) => h('th', { scope: 'col' }, c)))),
-        h('tbody', null, ...fig.rows.map((r) => h('tr', null, ...r.map((c, i) => (i === 0 ? h('th', { scope: 'row' }, c) : h('td', null, c))))))))));
+        h('tbody', null, ...fig.rows.map((r) => h('tr', null, ...r.map((c, i) => (i === 0 ? h('th', { scope: 'row' }, c) : h('td', null, c)))))))));
   }
   if (fig.kind === 'steps') {
     return h('figure', { class: 'figure' }, fig.caption ? h('figcaption', null, fig.caption) : null,

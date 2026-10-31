@@ -53,7 +53,7 @@ export function tokens(accent, dark) {
     '--accent': accent,
     '--accent-strong': mix(accent, '#000000', 0.78),
     '--on-accent': '#FFFFFF',
-    '--mark': mix(accent, '#FFFFFF', 0.2),
+    '--mark': mix(accent, '#FFFFFF', 0.28),
     '--danger': '#B3261E',
     'color-scheme': 'light',
   };

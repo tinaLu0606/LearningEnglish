@@ -65,11 +65,11 @@ Open Claude Code in this folder and say things like:
 
 ## Publishing
 
-The artifact is published from `app/`: `index.html` is the page, `css/` and `js/` go up as supporting files, and it declares the capabilities `db`, `sample` and `assets`. The artifact URL is recorded in `skills/english-lab/SKILL.md`.
+The artifact is published from `app/`: `index.html` is the page, `css/` and `js/` go up as supporting files, and it declares the capabilities `db`, `sample` and `assets`. Live app: https://claude.ai/artifact/5c81mtfKm7dcCxmmjR2F7R (also recorded in `skills/english-lab/SKILL.md`).
 
 ## Local preview
 
 ```
-cd app && python3 -m http.server 8765
-# open http://localhost:8765 – offline mode with the seed data, stored in this browser only
+python3 -m http.server 8765        # from the repo root
+# open http://localhost:8765/app/ – offline mode with the seed data, stored in this browser only
 ```

@@ -1,6 +1,6 @@
 # Cleanup ("clean up old content")
 
-The artifact database holds at most 5,000 documents and each asset is at most 20 MiB, so old content is pruned.
+The artifact database holds at most 25,000 documents and each asset is at most 20 MiB, so old content is pruned.
 
 | What | Rule |
 |---|---|

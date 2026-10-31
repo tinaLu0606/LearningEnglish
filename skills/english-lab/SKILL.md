@@ -8,7 +8,7 @@ description: Run the learner's personal English Lab app (IELTS writing, words, l
 The learner (MSc student in Singapore, IELTS retake target overall 8; writing is the weakest skill) studies in a claude.ai artifact app on iPhone and desktop. You are the control centre: they ask in plain language, you do the work.
 
 - **Repo**: `/Users/tina/workspace/learningEnglish` (code in `app/`, schema in `data/schema.md`)
-- **Artifact (the app)**: ARTIFACT_URL
+- **Artifact (the app)**: https://claude.ai/artifact/5c81mtfKm7dcCxmmjR2F7R
 - **Data**: the artifact `db`, read/written with the `ArtifactData` tool (`url` = the artifact). Audio lives in its asset store.
 - Explain things in English with short Chinese glosses for hard terms. UI text in the app is English only.
 
@@ -31,7 +31,7 @@ Always read `data/schema.md` before writing documents. Pin every write to an exi
 
 ## Publishing the app
 
-Artifact tool, `action: "publish"`, `url: ARTIFACT_URL`, `file_path: app/index.html`, `files` = every file under `app/css` and `app/js` mapped to the same relative path (for example `{"js/main.js": "app/js/main.js"}`). Omit `capabilities` on a redeploy (it keeps `db`, `sample`, `assets`). Omit `icon`.
+Artifact tool, `action: "publish"`, `url: https://claude.ai/artifact/5c81mtfKm7dcCxmmjR2F7R`, `file_path: app/index.html`, `files` = every file under `app/css` and `app/js` mapped to the same relative path (for example `{"js/main.js": "app/js/main.js"}`). Omit `capabilities` on a redeploy (it keeps `db`, `sample`, `assets`). Omit `icon`.
 
 ## Automation
 

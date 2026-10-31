@@ -3,7 +3,7 @@
 All app data lives in the artifact's `db` (JSON documents, path `collection/docId`).
 Device-only preferences (text size, accent, theme, drafts, playback position) live in the browser's `localStorage` under `el.*` keys and are never synced.
 
-Limits to respect: 256 KiB per document, 5,000 documents per artifact, doc ids use only `A-Z a-z 0-9 _ - . ~ : @ +`.
+Limits to respect: 256 KiB per document, 25,000 documents per artifact (reported by the db), doc ids use only `A-Z a-z 0-9 _ - . ~ : @ +`.
 Dates are local Singapore dates `YYYY-MM-DD`; timestamps are ISO strings.
 
 ## words/{wordId}

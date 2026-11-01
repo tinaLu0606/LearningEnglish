@@ -28,14 +28,15 @@ main {
   margin: 0 auto;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
-  padding-block: 20px calc(100px + env(safe-area-inset-bottom, 0px));
+  padding-block: 20px calc(110px + env(safe-area-inset-bottom, 0px));
 }
-body.has-mini main { padding-bottom: calc(164px + env(safe-area-inset-bottom, 0px)); }
+body.has-mini main { padding-bottom: calc(174px + env(safe-area-inset-bottom, 0px)); }
 
 .tabs {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 20;
   display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
-  padding: 6px max(6px, env(safe-area-inset-right, 0px)) calc(6px + env(safe-area-inset-bottom, 0px)) max(6px, env(safe-area-inset-left, 0px));
+  /* Lifted and inset so the outer icons clear phones with rounded screen corners. */
+  padding: 6px max(20px, env(safe-area-inset-right, 0px)) calc(16px + env(safe-area-inset-bottom, 0px)) max(20px, env(safe-area-inset-left, 0px));
   background: var(--surface);
   border-top: 1px solid var(--line);
 }
@@ -237,14 +238,14 @@ textarea.input { resize: vertical; line-height: 1.5; }
 
 .selbar {
   position: fixed; left: 50%; transform: translateX(-50%); z-index: 40;
-  bottom: calc(76px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(86px + env(safe-area-inset-bottom, 0px));
   display: flex; gap: 8px; padding: 8px; border-radius: 999px; background: var(--surface); box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
 }
 @media (min-width: 900px) { .selbar { bottom: 28px; } }
 
 .toast {
   position: fixed; left: 50%; transform: translateX(-50%); z-index: 60; max-width: calc(100% - 32px);
-  bottom: calc(84px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(94px + env(safe-area-inset-bottom, 0px));
   padding: 10px 16px; border-radius: 12px; background: var(--fg); color: var(--bg); font-size: 0.85rem; font-weight: 500;
 }
 @media (min-width: 900px) { .toast { bottom: 32px; } }
@@ -344,7 +345,7 @@ mark.term { background: var(--mark); color: inherit; border-radius: 3px; padding
 
 .mini {
   position: fixed; left: 0; right: 0; z-index: 19;
-  bottom: calc(63px + env(safe-area-inset-bottom, 0px));
+  bottom: calc(73px + env(safe-area-inset-bottom, 0px));
   display: flex; align-items: center; gap: 8px;
   padding: 6px max(12px, env(safe-area-inset-right, 0px)) 6px max(16px, env(safe-area-inset-left, 0px));
   background: var(--surface); border-top: 1px solid var(--line);
@@ -371,7 +372,7 @@ mark.term { background: var(--mark); color: inherit; border-radius: 3px; padding
 @media (max-width: 899px) {
   body.focus-mode .tabs { display: none; }
   body.focus-mode main { padding-bottom: calc(40px + env(safe-area-inset-bottom, 0px)); }
-  body.focus-mode .mini { bottom: 0; padding-bottom: calc(6px + env(safe-area-inset-bottom, 0px)); }
+  body.focus-mode .mini { bottom: 0; padding-bottom: calc(16px + env(safe-area-inset-bottom, 0px)); }
   body.focus-mode .selbar { bottom: calc(20px + env(safe-area-inset-bottom, 0px)); }
   body.focus-mode .toast { bottom: calc(24px + env(safe-area-inset-bottom, 0px)); }
 }
@@ -379,3 +380,10 @@ mark.term { background: var(--mark); color: inherit; border-radius: 3px; padding
 @media (prefers-reduced-motion: reduce) {
   .sheet { transition: none; }
 }
+
+/* home-screen icon picker */
+.icon-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 14px; }
+.icon-opt { margin: 0; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.icon-opt img { width: 100%; max-width: 120px; height: auto; aspect-ratio: 1; border-radius: 22%; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); -webkit-touch-callout: default; }
+.icon-opt figcaption { font-size: 0.78rem; color: var(--muted); }
+.app-url { font-size: 0.8rem; overflow-wrap: anywhere; user-select: all; -webkit-user-select: all; }

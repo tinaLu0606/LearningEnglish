@@ -37,4 +37,4 @@ Artifact tool, `action: "publish"`, `url: https://claude.ai/artifact/5c81mtfKm7d
 
 - Daily news: a scheduled cloud routine is "Plan A" (not yet verified that it can write to the artifact db). "Plan B" is the backfill job above, so missing days can always be filled later.
 - Literature is written 30 days ahead, so nothing needs to run daily.
-- Tools for listening (`yt-dlp`, `ffmpeg`, `whisper-cpp`) are installed only with the learner's permission: `brew install yt-dlp ffmpeg whisper-cpp`, plus a model in `pipeline/models/` (e.g. `ggml-small.en.bin`).
+- Tools for listening (`yt-dlp`, `ffmpeg`, `whisper-cpp`) are installed only with the learner's permission: `brew install yt-dlp ffmpeg whisper-cpp`, plus a model in `~/.cache/whisper-cpp/` (default `ggml-large-v3-turbo-q5_0.bin`; see `pipeline/MODEL.md` for why). Official captions are used instead of Whisper whenever the video has them.

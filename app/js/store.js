@@ -13,6 +13,43 @@ const listeners = new Set();
 export function onChange(fn) { listeners.add(fn); return () => listeners.delete(fn); }
 function emit(col) { for (const fn of listeners) fn(col); }
 
+let resolveDb;
+const dbReady = new Promise((r) => { resolveDb = r; });
+
+// ---------- warm start ----------
+// The last snapshot of every collection is kept on this device, so the app can
+// draw real content immediately while the cloud connection is still starting.
+// Live data replaces it as soon as it arrives. Transcripts are left out (too big).
+
+const WARM_KEY = 'el.warm.v1';
+let warm = false;
+(function loadWarm() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(WARM_KEY) || 'null');
+    if (!saved || !saved.cols) return;
+    for (const [col, docs] of Object.entries(saved.cols)) {
+      if (!WATCHED.includes(col)) continue;
+      cache.set(col, new Map(docs.map((d) => [d.id, d])));
+      loaded.add(col);
+    }
+    warm = true;
+  } catch { /* no cache: first visit or storage blocked */ }
+})();
+
+let warmTimer;
+function saveWarm() {
+  clearTimeout(warmTimer);
+  warmTimer = setTimeout(() => {
+    try {
+      const cols = {};
+      for (const col of WATCHED) {
+        cols[col] = list(col).map((d) => (col === 'episodes' ? { ...d, segments: undefined } : d));
+      }
+      localStorage.setItem(WARM_KEY, JSON.stringify({ at: Date.now(), cols }));
+    } catch { /* storage full or blocked: warm start is only a convenience */ }
+  }, 1500);
+}
+
 export async function init() {
   let real = null;
   if (window.claude && typeof window.claude.use === 'function') {
@@ -20,12 +57,13 @@ export async function init() {
   }
   if (real) { db = real; mode = 'online'; }
   else { db = await mockDb(); mode = 'offline'; }
+  resolveDb();
   for (const col of WATCHED) watch(col);
   emit('*');
 }
 
 function watch(col) {
-  cache.set(col, new Map());
+  if (!cache.has(col)) cache.set(col, new Map());
   const subscribe = () => db.collection(col).onSnapshot(
     (snap) => {
       const m = new Map();
@@ -33,6 +71,7 @@ function watch(col) {
       cache.set(col, m);
       loaded.add(col);
       emit(col);
+      if (mode === 'online') saveWarm();
     },
     (err) => {
       console.warn('[store]', col, err && err.code);
@@ -44,14 +83,14 @@ function watch(col) {
   subscribe();
 }
 
-export const ready = () => mode !== 'connecting';
+export const ready = () => mode !== 'connecting' || warm;
 export const isLoaded = (col) => loaded.has(col);
 export const list = (col) => [...(cache.get(col)?.values() ?? [])];
 export const get = (col, id) => cache.get(col)?.get(id) ?? null;
 
 // Read a document that is not watched (e.g. the dict cache).
 export async function fetchDoc(col, id) {
-  if (!db) return null;
+  await dbReady;
   try {
     const s = await db.doc(`${col}/${id}`).get();
     return s.exists ? { ...s.data(), id } : null;
@@ -61,6 +100,7 @@ export async function fetchDoc(col, id) {
 const clean = (data) => { const { id, ...rest } = data; return JSON.parse(JSON.stringify(rest)); };
 
 async function retryOnce(fn) {
+  await dbReady; // a tap during warm start waits for the connection instead of failing
   try { return await fn(); }
   catch (e) {
     if (e && e.code === 'unavailable') {

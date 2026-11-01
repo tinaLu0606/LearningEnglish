@@ -5,14 +5,15 @@
 # Everything runs on this Mac; no tokens are spent. Official captions are used when they exist,
 # otherwise whisper.cpp transcribes locally.
 #
-# Usage: pipeline/transcribe.sh <url-or-file> [--id ID] [--show "Show name"] [--accent "Singaporean"] [--model small.en]
-# Needs: yt-dlp, ffmpeg, whisper-cpp (brew install yt-dlp ffmpeg whisper-cpp) and a model in pipeline/models/.
+# Usage: pipeline/transcribe.sh <url-or-file> [--id ID] [--show "Show name"] [--accent "Singaporean"] [--model large-v3-turbo-q5_0]
+# Needs: yt-dlp, ffmpeg, whisper-cpp (brew install yt-dlp ffmpeg whisper-cpp) and a model in ~/.cache/whisper-cpp/
+# (why this model: pipeline/MODEL.md).
 set -euo pipefail
 
 HERE="$(cd "$(dirname "$0")" && pwd)"
-SRC="${1:?usage: transcribe.sh <url-or-file> [--id ID] [--show NAME] [--accent ACCENT] [--model small.en]}"
+SRC="${1:?usage: transcribe.sh <url-or-file> [--id ID] [--show NAME] [--accent ACCENT] [--model large-v3-turbo-q5_0]}"
 shift
-ID="" SHOW="" ACCENT="" MODEL="small.en"
+ID="" SHOW="" ACCENT="" MODEL="large-v3-turbo-q5_0"
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --id) ID="$2"; shift 2 ;;
@@ -57,7 +58,7 @@ if [[ -n "$CAP" ]]; then
   RAW="$CAP"
 else
   command -v whisper-cli >/dev/null || { echo "missing whisper-cli (brew install whisper-cpp)" >&2; exit 1; }
-  MODEL_FILE="$HERE/models/ggml-$MODEL.bin"
+  MODEL_FILE="${WHISPER_MODELS:-$HOME/.cache/whisper-cpp}/ggml-$MODEL.bin"
   [[ -f "$MODEL_FILE" ]] || { echo "missing model $MODEL_FILE — download from https://huggingface.co/ggerganov/whisper.cpp" >&2; exit 1; }
   ffmpeg -y -loglevel error -i "$WORK/source" -ar 16000 -ac 1 -c:a pcm_s16le "$WORK/speech.wav"
   whisper-cli -m "$MODEL_FILE" -f "$WORK/speech.wav" -l en -oj -of "$WORK/whisper" >/dev/null

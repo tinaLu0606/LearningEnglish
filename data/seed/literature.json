@@ -1,26 +1,56 @@
 [
   {
-    "id": "2026-10-31", "date": "2026-10-31", "author": "Herman Melville", "work": "Moby-Dick", "year": 1851, "level": 3, "form": "prose",
+    "id": "2026-10-31",
+    "date": "2026-10-31",
+    "author": "Herman Melville",
+    "work": "Moby-Dick",
+    "year": 1851,
+    "level": 3,
+    "form": "prose",
     "text": [
       "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation."
     ],
     "notes": [
-      { "kind": "Technique", "title": "The narrator’s voice", "body": "“Call me Ishmael” is an invitation, not a fact: he never says it is his real name. The aside “never mind how long precisely” makes him sound casual and a little secretive at once. Melville builds a first-person narrator (第一人称叙述者) who chats with you like a friend in a bar." },
-      { "kind": "Word", "title": "spleen", "body": "Literally an organ (脾脏), but in older English it means bad temper or gloom (忧郁、烦闷), because the spleen was once thought to produce melancholy. “Driving off the spleen” = shaking off a dark mood." }
+      {
+        "kind": "Technique",
+        "title": "The narrator’s voice",
+        "body": "“Call me Ishmael” is an invitation, not a fact: he never says it is his real name, only what you may call him. That small choice makes the narrator feel slightly guarded, a man telling his story on his own terms. The aside “never mind how long precisely” works the same way: it waves away a detail he could easily give, so he sounds relaxed and a little secretive at once. Melville builds a first-person narrator (第一人称叙述者) who talks to you as if you were sitting across a table. Notice the rhythm too: a short command, then a long, wandering sentence full of clauses, like someone thinking aloud. When you read the rest of the novel, this friendly voice is what carries you through hundreds of pages about whales."
+      },
+      {
+        "kind": "Word",
+        "title": "spleen",
+        "body": "Literally an organ near the stomach (脾脏). In older English it also meant bad temper or gloom (忧郁、烦闷), because medieval medicine believed the spleen produced “black bile”, the fluid behind melancholy. So “driving off the spleen” means shaking off a dark, irritable mood. Ishmael’s cure is to go to sea, the way someone today might go for a run. You will still meet the word in “to vent one’s spleen” (发泄怒气), meaning to express anger, often unfairly: “He vented his spleen on the waiter.” It is literary rather than everyday, so recognise it, but don’t force it into an IELTS essay."
+      }
     ]
   },
   {
-    "id": "2026-11-01", "date": "2026-11-01", "author": "Jane Austen", "work": "Pride and Prejudice", "year": 1813, "level": 3, "form": "prose",
+    "id": "2026-11-01",
+    "date": "2026-11-01",
+    "author": "Jane Austen",
+    "work": "Pride and Prejudice",
+    "year": 1813,
+    "level": 3,
+    "form": "prose",
     "text": [
       "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
       "However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered the rightful property of some one or other of their daughters."
     ],
     "notes": [
-      { "kind": "Technique", "title": "Irony in the first line", "body": "The sentence sounds like a grand universal law, but the second paragraph reveals whose “truth” it is: mothers with unmarried daughters. Saying one thing while meaning its opposite is verbal irony (反讽). Really it is the families who want the rich man, not the man who wants a wife." }
+      {
+        "kind": "Technique",
+        "title": "Irony in the first line",
+        "body": "The opening sentence sounds like a grand universal law, the sort of thing a philosopher would state. But the second paragraph quietly reveals whose “truth” it really is: the families of the neighbourhood, who see any rich newcomer as “the rightful property” of one of their daughters. Saying one thing while meaning something close to its opposite is verbal irony (反讽). On the surface, a rich man needs a wife; underneath, mothers need a rich husband for their girls. Austen never tells us this directly; she lets the gap between the grand tone and the small, practical reality do the work. Look also at the legal and financial words, “possession”, “fortune”, “property”: marriage is being described like a transaction, which is exactly the social problem the novel explores."
+      }
     ]
   },
   {
-    "id": "2026-11-02", "date": "2026-11-02", "author": "William Shakespeare", "work": "Sonnet 18", "year": 1609, "level": 3, "form": "verse",
+    "id": "2026-11-02",
+    "date": "2026-11-02",
+    "author": "William Shakespeare",
+    "work": "Sonnet 18",
+    "year": 1609,
+    "level": 3,
+    "form": "verse",
     "text": [
       "Shall I compare thee to a summer’s day?\nThou art more lovely and more temperate:\nRough winds do shake the darling buds of May,\nAnd summer’s lease hath all too short a date;",
       "Sometime too hot the eye of heaven shines,\nAnd often is his gold complexion dimm’d;\nAnd every fair from fair sometime declines,\nBy chance or nature’s changing course untrimm’d;",
@@ -28,288 +58,630 @@
       "So long as men can breathe or eyes can see,\nSo long lives this, and this gives life to thee."
     ],
     "notes": [
-      { "kind": "Metre", "title": "Iambic pentameter", "body": "Each line has ten syllables in five da-DUM pairs (iambs, 抑扬格): “shall I | com-PARE | thee TO | a SUM | mer’s DAY”. Five feet = pentameter (五音步). Read a line aloud and tap the beat; the rhythm is close to natural English speech, which is why Shakespeare used it so much." },
-      { "kind": "Word", "title": "temperate", "body": "Mild and even, never extreme (温和的；有节制的). We still use it for climate (“a temperate climate”) and for people who avoid excess. The poem’s point: summer can be too hot or too short, but the beloved is steady." }
+      {
+        "kind": "Metre",
+        "title": "Iambic pentameter",
+        "body": "Each line has ten syllables arranged in five da-DUM pairs. One da-DUM pair is an iamb (抑扬格), and five of them make pentameter (五音步): “shall I | com-PARE | thee TO | a SUM | mer’s DAY”. Read a line aloud and tap the table on each capital. The rhythm sits close to natural English speech, which is why Shakespeare used it in plays as well as poems. The interest comes when he bends the pattern. “ROUGH WINDS do SHAKE” piles stresses together, so the line itself sounds rough. The final couplet (对句), two rhyming lines, turns the argument: summer fades, but “this” poem will keep the beloved alive. A sonnet (十四行诗) has 14 lines, usually with a turn like this near the end."
+      },
+      {
+        "kind": "Word",
+        "title": "temperate",
+        "body": "Mild, even, never going to extremes (温和的；有节制的). Shakespeare’s point is that a real summer’s day is unreliable: sometimes too hot (“the eye of heaven shines” too strongly), sometimes cloudy, and always too short. The beloved is better because they are steady. We still use the word in two main ways. For climate: “a temperate climate” (温带气候) like Britain’s, never very hot or very cold. For behaviour: a temperate person avoids excess, especially with alcohol; the opposite, intemperate, appears in phrases like “intemperate language” (过激的言辞). In an IELTS Task 1 or 2 about weather or regions, “temperate” is a precise, natural choice."
+      }
     ]
   },
   {
-    "id": "2026-11-03", "date": "2026-11-03", "author": "Charles Dickens", "work": "A Tale of Two Cities", "year": 1859, "level": 4, "form": "prose",
+    "id": "2026-11-03",
+    "date": "2026-11-03",
+    "author": "Charles Dickens",
+    "work": "A Tale of Two Cities",
+    "year": 1859,
+    "level": 4,
+    "form": "prose",
     "text": [
       "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair, we had everything before us, we had nothing before us, we were all going direct to Heaven, we were all going direct the other way—"
     ],
     "notes": [
-      { "kind": "Technique", "title": "Anaphora and antithesis", "body": "Two devices power this sentence. Anaphora (首语重复): the same opening, “it was…”, repeated again and again. Antithesis (对照): each pair sets opposites side by side, best/worst, wisdom/foolishness. Useful in speeches too, but in an IELTS essay one balanced pair is plenty." },
-      { "kind": "Word", "title": "incredulity", "body": "Unwillingness to believe something (怀疑；不轻信). Adjective: incredulous (“she gave an incredulous laugh”). Don’t confuse it with incredible, which means hard to believe." }
+      {
+        "kind": "Technique",
+        "title": "Anaphora and antithesis",
+        "body": "Two devices drive this famous sentence. Anaphora (首语重复) is the same opening repeated again and again: “it was… it was… it was…”. Antithesis (对照) places opposites side by side: best and worst, wisdom and foolishness, Light and Darkness. Together they create a sense of a whole society pulled in two directions at once, which suits a novel set in London and Paris before and during the French Revolution. Dickens also lets the sentence run on far longer than seems reasonable, ending with a dash rather than a full stop, so it feels breathless and unstable. For your own writing, one balanced pair can be powerful in a conclusion (“Technology can connect people; it can also isolate them”), but more than that starts to sound like a speech."
+      },
+      {
+        "kind": "Word",
+        "title": "incredulity",
+        "body": "Unwillingness or inability to believe something (怀疑；不轻信). The adjective is incredulous: “She gave an incredulous laugh when she heard the price.” In the passage, “the epoch of belief” is paired with “the epoch of incredulity”: some people trusted completely in new ideas, others trusted nothing. Be careful with a common confusion. Incredible means “hard to believe” and describes the thing; incredulous describes the person who doesn’t believe. So the news is incredible, and the listener is incredulous. Related: credulous (轻信的) means believing too easily, and credible (可信的) means believable, a useful word in Task 2 when you discuss news sources or evidence."
+      }
     ]
   },
   {
-    "id": "2026-11-04", "date": "2026-11-04", "author": "Emily Dickinson", "work": "“Hope” is the thing with feathers", "year": 1861, "level": 3, "form": "verse",
+    "id": "2026-11-04",
+    "date": "2026-11-04",
+    "author": "Emily Dickinson",
+    "work": "“Hope” is the thing with feathers",
+    "year": 1861,
+    "level": 3,
+    "form": "verse",
     "text": [
       "“Hope” is the thing with feathers -\nThat perches in the soul -\nAnd sings the tune without the words -\nAnd never stops - at all -",
       "And sweetest - in the Gale - is heard -\nAnd sore must be the storm -\nThat could abash the little Bird\nThat kept so many warm -",
       "I’ve heard it in the chillest land -\nAnd on the strangest Sea -\nYet - never - in Extremity,\nIt asked a crumb - of me."
     ],
     "notes": [
-      { "kind": "Technique", "title": "Extended metaphor", "body": "Hope is a small bird from start to finish: it perches, sings, survives storms, and never asks to be fed. Keeping one comparison running through a whole poem is an extended metaphor (延伸隐喻). The last line is the twist: hope gives everything and takes nothing." }
+      {
+        "kind": "Technique",
+        "title": "Extended metaphor",
+        "body": "From the first line to the last, hope is a small bird. It “perches in the soul”, sings a tune without words, keeps singing through storms, and survives “the chillest land” and “the strangest Sea”. Keeping one comparison running through a whole poem is an extended metaphor (延伸隐喻). Each stanza adds a new quality: hope is constant, it is strongest when life is hardest, and it asks for nothing. The last two lines are the turn: “Yet - never - in Extremity, / It asked a crumb - of me.” Hope gives everything and costs nothing. Notice also Dickinson’s famous dashes, which slow you down and make each phrase land separately, almost like breaths. Her capital letters (Gale, Bird, Sea) give ordinary nouns extra weight."
+      }
     ]
   },
   {
-    "id": "2026-11-05", "date": "2026-11-05", "author": "William Wordsworth", "work": "I Wandered Lonely as a Cloud", "year": 1807, "level": 3, "form": "verse",
+    "id": "2026-11-05",
+    "date": "2026-11-05",
+    "author": "William Wordsworth",
+    "work": "I Wandered Lonely as a Cloud",
+    "year": 1807,
+    "level": 3,
+    "form": "verse",
     "text": [
       "I wandered lonely as a cloud\nThat floats on high o’er vales and hills,\nWhen all at once I saw a crowd,\nA host, of golden daffodils;\nBeside the lake, beneath the trees,\nFluttering and dancing in the breeze."
     ],
     "notes": [
-      { "kind": "Trivia", "title": "His sister saw them first", "body": "The walk happened in April 1802. Wordsworth’s sister Dorothy described the daffodils in her journal that day, saying they “tossed and reeled and danced”. Wordsworth wrote the poem two years later, and many critics think he borrowed from her notes." },
-      { "kind": "Metre", "title": "Four beats, ABABCC", "body": "Each line has four iambs, so it is iambic tetrameter (抑扬格四音步). The rhyme scheme is ABABCC (cloud/crowd, hills/daffodils, trees/breeze); the closing couplet (对句) gives each stanza a neat finish." }
+      {
+        "kind": "Trivia",
+        "title": "His sister saw them first",
+        "body": "The walk took place on 15 April 1802, beside Ullswater in the Lake District. Wordsworth’s sister Dorothy wrote about the daffodils in her journal that evening, describing how they “tossed and reeled and danced” and seemed to laugh with the wind. William wrote the poem about two years later, and many readers notice how much of her imagery it shares. Scholars now treat Dorothy’s journals as literature in their own right. Another detail: the famous last stanza, about the flowers flashing upon “that inward eye / Which is the bliss of solitude”, was partly suggested by William’s wife, Mary. So this “lonely” poem was, in fact, a small family effort."
+      },
+      {
+        "kind": "Metre",
+        "title": "Four beats, ABABCC",
+        "body": "Each line has four iambs (da-DUM), so the metre is iambic tetrameter (抑扬格四音步): “i WAN | dered LONE | ly AS | a CLOUD”. That is shorter and lighter than Shakespeare’s five-beat line, which suits a poem about floating and dancing. The rhyme scheme (韵式) is ABABCC: cloud/crowd, hills/daffodils, then trees/breeze as a closing couplet. The couplet gives each stanza a neat, satisfying finish, like a small landing. Now look at the last line: “FLUT-ter-ing and DAN-cing in the BREEZE”. It starts on a stressed syllable and squeezes in extra light syllables, so the rhythm itself flutters. Poets often break the pattern exactly where the meaning moves."
+      }
     ]
   },
   {
-    "id": "2026-11-06", "date": "2026-11-06", "author": "Virginia Woolf", "work": "Mrs Dalloway", "year": 1925, "level": 4, "form": "prose",
+    "id": "2026-11-06",
+    "date": "2026-11-06",
+    "author": "Virginia Woolf",
+    "work": "Mrs Dalloway",
+    "year": 1925,
+    "level": 4,
+    "form": "prose",
     "text": [
       "Mrs. Dalloway said she would buy the flowers herself.",
       "For Lucy had her work cut out for her. The doors would be taken off their hinges; Rumpelmayer’s men were coming. And then, thought Clarissa Dalloway, what a morning—fresh as if issued to children on a beach.",
       "What a lark! What a plunge! For so it had always seemed to her, when, with a little squeak of the hinges, which she could hear now, she had burst open the French windows and plunged at Bourton into the open air."
     ],
     "notes": [
-      { "kind": "Technique", "title": "Free indirect discourse", "body": "Notice how “What a lark! What a plunge!” is Clarissa’s own excitement, yet the narrator never writes “she thought”. Blending a character’s thoughts into third-person narration is free indirect discourse (自由间接引语). In one sentence the squeak of today’s door carries her back to Bourton, decades earlier." }
+      {
+        "kind": "Technique",
+        "title": "Free indirect discourse",
+        "body": "Notice “What a lark! What a plunge!” These are clearly Clarissa’s own excited thoughts, yet the narrator never writes “she thought”. Blending a character’s voice into third-person narration is called free indirect discourse (自由间接引语). It lets us feel inside her head while the narrator stays in control. Woolf uses it to move through time as memory does: the squeak of today’s door hinge carries Clarissa back to Bourton, her childhood home, decades earlier, all within one sentence. This is the “stream of consciousness” (意识流) style the novel is famous for. You don’t need it for IELTS, but it explains why the prose feels so fluid: the sentences follow the mind’s jumps, not a strict timeline."
+      }
     ]
   },
   {
-    "id": "2026-11-07", "date": "2026-11-07", "author": "Thomas Hardy", "work": "The Darkling Thrush", "year": 1900, "level": 3, "form": "verse",
+    "id": "2026-11-07",
+    "date": "2026-11-07",
+    "author": "Thomas Hardy",
+    "work": "The Darkling Thrush",
+    "year": 1900,
+    "level": 3,
+    "form": "verse",
     "text": [
       "I leant upon a coppice gate\nWhen Frost was spectre-grey,\nAnd Winter’s dregs made desolate\nThe weakening eye of day.\nThe tangled bine-stems scored the sky\nLike strings of broken lyres,\nAnd all mankind that haunted nigh\nHad sought their household fires."
     ],
     "notes": [
-      { "kind": "Trivia", "title": "A poem for the end of a century", "body": "Hardy dated the poem 31 December 1900, the last day of the nineteenth century, and its first title was “By the Century’s Deathbed”. The grey, dying landscape is also the old century’s corpse. Later in the poem an old thrush suddenly sings, and the speaker cannot tell whether there is any reason for its hope." },
-      { "kind": "Word", "title": "coppice · darkling", "body": "A coppice (矮林) is a small wood whose trees are cut back regularly so they regrow. Darkling is an old poetic word meaning in the dark or growing dark (在黑暗中的); Keats and Matthew Arnold used it too." }
+      {
+        "kind": "Trivia",
+        "title": "A poem for the end of a century",
+        "body": "Hardy dated the poem 31 December 1900, the last day of the nineteenth century, and its first title was “By the Century’s Deathbed”. Read with that in mind, the grey frost, the “weakening eye of day” and the broken lyres become an image of the old century dying, a time many Victorians felt had lost its religious certainty. In the following stanzas an old, thin thrush suddenly bursts into joyful song. The speaker cannot see any reason for its hope in the bleak landscape and wonders whether the bird knows something he does not. Hardy, usually seen as a pessimist, leaves the question open, which is why the poem is often read at New Year."
+      },
+      {
+        "kind": "Word",
+        "title": "coppice · darkling",
+        "body": "A coppice (矮林) is a small wood where trees are cut down to the base every few years so that many thin new stems grow back, an old way of producing poles and firewood in England. A “coppice gate” is simply the gate into such a wood. Darkling is an old poetic word meaning “in the dark” or “growing dark” (在黑暗中的), so the title means a thrush singing at dusk. Keats used it in “Ode to a Nightingale” (“Darkling I listen”) and Matthew Arnold in “Dover Beach” (“a darkling plain”). Hardy is deliberately echoing these poets. Also note “bine-stems”: the climbing stems of plants such as hops."
+      }
     ]
   },
   {
-    "id": "2026-11-08", "date": "2026-11-08", "author": "F. Scott Fitzgerald", "work": "The Great Gatsby", "year": 1925, "level": 3, "form": "prose",
+    "id": "2026-11-08",
+    "date": "2026-11-08",
+    "author": "F. Scott Fitzgerald",
+    "work": "The Great Gatsby",
+    "year": 1925,
+    "level": 3,
+    "form": "prose",
     "text": [
       "Gatsby believed in the green light, the orgastic future that year by year recedes before us. It eluded us then, but that’s no matter—to-morrow we will run faster, stretch out our arms farther. . . . And one fine morning——",
       "So we beat on, boats against the current, borne back ceaselessly into the past."
     ],
     "notes": [
-      { "kind": "Technique", "title": "A symbol that keeps moving", "body": "The green light at the end of Daisy’s dock stands for everything Gatsby wants. A symbol (象征) like this lets one concrete object carry a big idea. The last line turns it into an image of all of us: rowing forward hard, yet carried backwards by the current." }
+      {
+        "kind": "Technique",
+        "title": "A symbol that keeps moving",
+        "body": "Across the lake from Gatsby’s mansion, a green light shines at the end of Daisy’s dock. For Gatsby it stands for everything he wants: Daisy, the past, and the dream of becoming someone new. A symbol (象征) lets one concrete object carry a large idea without explaining it. In these final lines Fitzgerald widens the symbol from Gatsby to all of us: the future “recedes before us” however fast we run. Then the closing image of boats rowing against the current makes the paradox physical: we push forward with effort, yet the current keeps carrying us back into the past. The word “orgastic” is Fitzgerald’s own choice; many editions wrongly “corrected” it to “orgiastic”."
+      }
     ]
   },
   {
-    "id": "2026-11-09", "date": "2026-11-09", "author": "Gerard Manley Hopkins", "work": "Pied Beauty", "year": 1877, "level": 5, "form": "verse",
+    "id": "2026-11-09",
+    "date": "2026-11-09",
+    "author": "Gerard Manley Hopkins",
+    "work": "Pied Beauty",
+    "year": 1877,
+    "level": 5,
+    "form": "verse",
     "text": [
       "Glory be to God for dappled things—\nFor skies of couple-colour as a brinded cow;\nFor rose-moles all in stipple upon trout that swim;\nFresh-firecoal chestnut-falls; finches’ wings;\nLandscape plotted and pieced—fold, fallow, and plough;\nAnd áll trádes, their gear and tackle and trim.",
       "All things counter, original, spare, strange;\nWhatever is fickle, freckled (who knows how?)\nWith swift, slow; sweet, sour; adazzle, dim;\nHe fathers-forth whose beauty is past change:\nPraise him."
     ],
     "notes": [
-      { "kind": "Metre", "title": "Sprung rhythm", "body": "Hopkins counts only the stressed syllables in a line and lets the unstressed ones fall freely; he called this sprung rhythm (跳跃韵律). That is why some lines are crowded (“Fresh-firecoal chestnut-falls”) and the last is just two words. The accents on “áll trádes” are his own, telling you where to put the stress." },
-      { "kind": "Word", "title": "dappled · brinded", "body": "Dappled = marked with spots or patches of colour or light (斑驳的), as in “dappled sunlight”. Brinded (usually brindled) = brownish with darker streaks (有斑纹的), used for cows, cats and dogs." }
+      {
+        "kind": "Metre",
+        "title": "Sprung rhythm",
+        "body": "Hopkins counts only the stressed syllables in a line and lets the unstressed ones fall freely. He called this sprung rhythm (跳跃韵律), and said it was closer to natural speech and to old English verse. That is why some lines are crowded with heavy beats (“Fresh-firecoal chestnut-falls; finches’ wings”) while the last line is just two words, “Praise him.” The accents in “áll trádes” are Hopkins’s own marks, telling you exactly where to put the stress. Read the poem aloud slowly: the packed consonants and compound words (couple-colour, rose-moles, fathers-forth) are meant to be chewed. This is a curtal sonnet (短十四行诗), a shortened sonnet form Hopkins invented, with ten and a half lines instead of fourteen."
+      },
+      {
+        "kind": "Word",
+        "title": "dappled · brinded",
+        "body": "Dappled means marked with spots or patches of a different colour or of light and shade (斑驳的). You will often see “dappled sunlight” under trees, or a “dappled horse”. Brinded (more commonly brindled, 有斑纹的) describes an animal, usually a cow, cat or dog, that is brownish or grey with darker streaks. Hopkins praises exactly these mixed, imperfect patterns: two-coloured skies, spotted trout, fields divided into patches. The whole poem argues that variety and irregularity are signs of a beauty that is itself unchanging. Both words are useful descriptive vocabulary; “dappled” in particular appears in good descriptive writing and travel journalism."
+      }
     ]
   },
   {
-    "id": "2026-11-10", "date": "2026-11-10", "author": "Charlotte Brontë", "work": "Jane Eyre", "year": 1847, "level": 3, "form": "prose",
+    "id": "2026-11-10",
+    "date": "2026-11-10",
+    "author": "Charlotte Brontë",
+    "work": "Jane Eyre",
+    "year": 1847,
+    "level": 3,
+    "form": "prose",
     "text": [
       "“Do you think, because I am poor, obscure, plain, and little, I am soulless and heartless? You think wrong!—I have as much soul as you,—and full as much heart!”",
       "“I am no bird; and no net ensnares me: I am a free human being with an independent will, which I now exert to leave you.”"
     ],
     "notes": [
-      { "kind": "Technique", "title": "The list that builds", "body": "Jane stacks four adjectives, “poor, obscure, plain, and little”, the very labels others use to dismiss her, then knocks them down with a rhetorical question (反问) and a blunt “You think wrong!”. Speaking this way to her employer was shocking for a Victorian governess." }
+      {
+        "kind": "Technique",
+        "title": "The list that builds",
+        "body": "Jane piles up four adjectives, “poor, obscure, plain, and little”, exactly the labels that others use to dismiss her. Then she turns them into a rhetorical question (反问): does being these things make her “soulless and heartless”? The blunt reply, “You think wrong!”, knocks the whole list down. A governess speaking this way to her wealthy employer was shocking for a Victorian novel; Brontë is claiming equal dignity for a woman with no money or status. The second passage uses a metaphor and its denial: “I am no bird; and no net ensnares me.” Her freedom is not given by anyone; it is something she will “exert”. Short, firm clauses make her sound decisive."
+      }
     ]
   },
   {
-    "id": "2026-11-11", "date": "2026-11-11", "author": "Percy Bysshe Shelley", "work": "Ozymandias", "year": 1818, "level": 3, "form": "verse",
+    "id": "2026-11-11",
+    "date": "2026-11-11",
+    "author": "Percy Bysshe Shelley",
+    "work": "Ozymandias",
+    "year": 1818,
+    "level": 3,
+    "form": "verse",
     "text": [
       "I met a traveller from an antique land,\nWho said—“Two vast and trunkless legs of stone\nStand in the desert. . . . Near them, on the sand,\nHalf sunk a shattered visage lies, whose frown,\nAnd wrinkled lip, and sneer of cold command,\nTell that its sculptor well those passions read\nWhich yet survive, stamped on these lifeless things,\nThe hand that mocked them, and the heart that fed;",
       "And on the pedestal, these words appear:\nMy name is Ozymandias, King of Kings;\nLook on my Works, ye Mighty, and despair!\nNothing beside remains. Round the decay\nOf that colossal Wreck, boundless and bare\nThe lone and level sands stretch far away.”"
     ],
     "notes": [
-      { "kind": "Trivia", "title": "Written for a contest", "body": "Shelley and his friend Horace Smith agreed to write sonnets on the same subject, the ruined statue of the pharaoh Ramesses II (Ozymandias is the Greek form of one of his names). Both poems were published in 1818; Shelley’s became one of the most famous sonnets in English." },
-      { "kind": "Technique", "title": "Situational irony", "body": "The king commands the mighty to “despair” at his great works, but there are no works left, only sand. The gap between what he intended and what happened is situational irony (情境反讽). Shelley adds no comment; the empty desert makes the point." }
+      {
+        "kind": "Trivia",
+        "title": "Written for a contest",
+        "body": "In late 1817 Shelley and his friend Horace Smith agreed to write sonnets on the same subject: a huge ruined statue of the Egyptian pharaoh Ramesses II, whose Greek name was Ozymandias. The British Museum was about to receive a giant fragment of one of his statues, and London was excited about it. Both poems were published in 1818. Smith’s is now almost forgotten, while Shelley’s became one of the most quoted sonnets in English. Notice that Shelley never saw the ruin himself: the story reaches us through “a traveller from an antique land”, so the king’s boast is reported second-hand, which already makes it sound distant and hollow."
+      },
+      {
+        "kind": "Technique",
+        "title": "Situational irony",
+        "body": "The inscription orders the mighty to “despair” when they see the king’s great works. The joke is that there are no works left to see, only a broken face and two legs in the sand. When what happens is the opposite of what someone intended, that is situational irony (情境反讽). The king wanted rivals to despair at his power; now visitors despair at how completely power disappears. Shelley adds no comment of his own. Instead he ends with an image: “The lone and level sands stretch far away.” The alliteration (头韵) of l and s makes the line slow and flat, like the empty desert itself. Ending on an image instead of a moral is a strong technique."
+      }
     ]
   },
   {
-    "id": "2026-11-12", "date": "2026-11-12", "author": "James Joyce", "work": "“The Dead”, from Dubliners", "year": 1914, "level": 4, "form": "prose",
+    "id": "2026-11-12",
+    "date": "2026-11-12",
+    "author": "James Joyce",
+    "work": "“The Dead”, from Dubliners",
+    "year": 1914,
+    "level": 4,
+    "form": "prose",
     "text": [
       "Yes, the newspapers were right: snow was general all over Ireland. It was falling on every part of the dark central plain, on the treeless hills, falling softly upon the Bog of Allen and, farther westward, softly falling into the dark mutinous Shannon waves.",
       "His soul swooned slowly as he heard the snow falling faintly through the universe and faintly falling, like the descent of their last end, upon all the living and the dead."
     ],
     "notes": [
-      { "kind": "Technique", "title": "Sound and mirror order", "body": "“falling softly … softly falling”, “falling faintly … faintly falling”: the words repeat in reverse order, a pattern called chiasmus (交错配列). With all the soft s and f sounds (alliteration, 头韵), the sentence itself drifts down like snow." },
-      { "kind": "Word", "title": "mutinous", "body": "Rebellious, refusing to obey (反叛的；不服从的), from mutiny, when sailors rise against their captain. Joyce gives the river a restless, rebellious will of its own." }
+      {
+        "kind": "Technique",
+        "title": "Sound and mirror order",
+        "body": "Look at the pairs “falling softly … softly falling” and “falling faintly … faintly falling”. The words repeat in reverse order, a pattern called chiasmus (交错配列). The repetition slows the sentence down and makes it circle back on itself, like snowflakes drifting rather than dropping straight. Add the many soft s and f sounds, an example of alliteration (头韵), and the prose sounds almost like a whispered poem. This ending comes after Gabriel, the main character, has learned that his wife once loved a boy who died young. The snow, falling equally on “all the living and the dead”, joins everyone in Ireland, past and present, in one calm, sad image."
+      },
+      {
+        "kind": "Word",
+        "title": "mutinous",
+        "body": "Rebellious, refusing to obey authority (反叛的；不服从的). It comes from mutiny, when sailors or soldiers rise against their officers. Joyce gives the River Shannon a mutinous will of its own, dark and restless, in contrast to the soft, obedient snow falling into it. The word can also describe people’s mood without any actual revolt: “mutinous looks from the staff after the pay cut”, or a child with a “mutinous expression”. It suggests anger that is controlled for now but might break out. In an essay, “discontented” or “resentful” would be more neutral; “mutinous” is vivid and slightly literary."
+      }
     ]
   },
   {
-    "id": "2026-11-13", "date": "2026-11-13", "author": "Henry David Thoreau", "work": "Walden", "year": 1854, "level": 3, "form": "prose",
+    "id": "2026-11-13",
+    "date": "2026-11-13",
+    "author": "Henry David Thoreau",
+    "work": "Walden",
+    "year": 1854,
+    "level": 3,
+    "form": "prose",
     "text": [
       "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived."
     ],
     "notes": [
-      { "kind": "Word", "title": "deliberately · front", "body": "Deliberately here means consciously and carefully, not “on purpose to annoy” (审慎地；从容地). Front is used as a verb: to face directly (面对). Both are formal; “live deliberately” would read as elegant phrasing in an essay." },
-      { "kind": "Trivia", "title": "Two years, two months, two days", "body": "Thoreau lived in a small cabin he built himself beside Walden Pond, Massachusetts, from July 1845 to September 1847. He compressed the experience into one year of seasons in the book." }
+      {
+        "kind": "Word",
+        "title": "deliberately · front",
+        "body": "Deliberately here does not mean “on purpose to annoy”; it means consciously, carefully and without hurry (审慎地；从容地). Thoreau wanted every part of daily life to be a choice rather than a habit. Front is used as a verb meaning to face directly or confront (面对), a slightly old-fashioned use; today we say “face” or “confront”. The phrase “the essential facts of life” means the basics: food, shelter, warmth and thought. The sentence ends with its real fear: reaching death and discovering “that I had not lived.” In your own writing, “to live deliberately” or “a deliberate choice” are elegant collocations (搭配); “deliberate” as an adjective is very common in academic English."
+      },
+      {
+        "kind": "Trivia",
+        "title": "Two years, two months, two days",
+        "body": "Thoreau lived in a small one-room cabin he built himself near Walden Pond, outside Concord, Massachusetts, from 4 July 1845 to 6 September 1847. The land belonged to his friend and mentor Ralph Waldo Emerson. Thoreau was not a hermit: Concord was a short walk away, and he often visited friends and family. He spent years revising his notes and shaped the book around a single year of seasons, from summer to spring, so that it ends with renewal. Walden was not a bestseller at first, but it later inspired environmentalists and thinkers on simple living around the world."
+      }
     ]
   },
   {
-    "id": "2026-11-14", "date": "2026-11-14", "author": "John Keats", "work": "To Autumn", "year": 1820, "level": 4, "form": "verse",
+    "id": "2026-11-14",
+    "date": "2026-11-14",
+    "author": "John Keats",
+    "work": "To Autumn",
+    "year": 1820,
+    "level": 4,
+    "form": "verse",
     "text": [
       "Season of mists and mellow fruitfulness,\nClose bosom-friend of the maturing sun;\nConspiring with him how to load and bless\nWith fruit the vines that round the thatch-eves run;\nTo bend with apples the moss’d cottage-trees,\nAnd fill all fruit with ripeness to the core;\nTo swell the gourd, and plump the hazel shells\nWith a sweet kernel; to set budding more,\nAnd still more, later flowers for the bees,\nUntil they think warm days will never cease,\nFor summer has o’er-brimm’d their clammy cells."
     ],
     "notes": [
-      { "kind": "Technique", "title": "Autumn as a person", "body": "Autumn is the sun’s close friend, “conspiring” with him to load the trees. Giving human actions to something non-human is personification (拟人). The stanza is one long sentence of verbs, load, bless, bend, fill, swell, plump, so it feels as overfull as the fruit." }
+      {
+        "kind": "Technique",
+        "title": "Autumn as a person",
+        "body": "Autumn is “close bosom-friend of the maturing sun”, conspiring with him to load the vines with fruit. Giving human actions and relationships to something non-human is personification (拟人). Here it makes autumn feel generous and busy, almost like a farmer or a host. Look at the grammar: the whole stanza is one long sentence built from a chain of verbs, “to load and bless”, “to bend”, “fill”, “to swell”, “plump”, “to set budding”. The sentence keeps adding, just as the season keeps adding fruit, until the bees think “warm days will never cease”. The long vowels (mists, mellow, fruitfulness) slow your reading down, so the poem feels heavy and ripe, like the fruit itself."
+      }
     ]
   },
   {
-    "id": "2026-11-15", "date": "2026-11-15", "author": "Mark Twain", "work": "Adventures of Huckleberry Finn", "year": 1884, "level": 3, "form": "prose",
+    "id": "2026-11-15",
+    "date": "2026-11-15",
+    "author": "Mark Twain",
+    "work": "Adventures of Huckleberry Finn",
+    "year": 1884,
+    "level": 3,
+    "form": "prose",
     "text": [
       "It was a close place. I took it up, and held it in my hand. I was a-trembling, because I’d got to decide, forever, betwixt two things, and I knowed it. I studied a minute, sort of holding my breath, and then says to myself:",
       "“All right, then, I’ll go to hell”—and tore it up."
     ],
     "notes": [
-      { "kind": "Technique", "title": "A boy’s own voice", "body": "Huck writes the way he speaks: “I knowed it”, “says to myself”, “a-trembling”. This vernacular (方言口语) narration makes the moment honest. He has written a letter that would return his friend Jim to slavery; tearing it up, he believes he is choosing hell, while the reader sees he is choosing what is right." },
-      { "kind": "Word", "title": "betwixt", "body": "An old form of between (在…之间), now only rural, poetic or jokey. You may meet the fixed phrase “betwixt and between”, meaning neither one thing nor the other." }
+      {
+        "kind": "Technique",
+        "title": "A boy’s own voice",
+        "body": "Huck tells the story the way he speaks: “I knowed it”, “says to myself”, “a-trembling”. Writing in the everyday speech of a region or class is called vernacular (方言口语) narration, and Twain was one of the first American writers to use it for a whole serious novel. In this scene Huck has written a letter that would return Jim, an escaped enslaved man and his friend, to his owner. Everything Huck has been taught says this is the right, Christian thing to do. When he tears the letter up, he truly believes he is choosing hell. The reader, however, sees that he is choosing what is morally right. That gap between Huck’s understanding and ours is dramatic irony (戏剧性反讽)."
+      },
+      {
+        "kind": "Word",
+        "title": "betwixt",
+        "body": "An old form of between (在…之间). By Twain’s time it already sounded rural, so it helps mark Huck as an uneducated boy from the Mississippi valley. Today you will meet it in poetry, fantasy novels, or jokingly, and in the fixed phrase “betwixt and between”, which means neither one thing nor the other, in an uncertain middle position: “At 17 he felt betwixt and between, not a child but not yet an adult.” Huck’s “close place” means a tight, difficult situation. For IELTS, just recognise “betwixt”; never use it in an essay, where it would sound odd."
+      }
     ]
   },
   {
-    "id": "2026-11-16", "date": "2026-11-16", "author": "William Blake", "work": "The Tyger", "year": 1794, "level": 3, "form": "verse",
+    "id": "2026-11-16",
+    "date": "2026-11-16",
+    "author": "William Blake",
+    "work": "The Tyger",
+    "year": 1794,
+    "level": 3,
+    "form": "verse",
     "text": [
       "Tyger Tyger, burning bright,\nIn the forests of the night;\nWhat immortal hand or eye,\nCould frame thy fearful symmetry?",
       "In what distant deeps or skies.\nBurnt the fire of thine eyes?\nOn what wings dare he aspire?\nWhat the hand, dare seize the fire?"
     ],
     "notes": [
-      { "kind": "Metre", "title": "The hammer beat", "body": "Most lines start on a stress and have seven syllables: TY-ger | TY-ger | BURN-ing | BRIGHT. That is trochaic tetrameter with the last weak beat cut off (catalectic, 截尾的扬抑格四音步). The insistent DUM-da rhythm sounds like a blacksmith’s hammer, fitting a poem about who forged the tiger." },
-      { "kind": "Trivia", "title": "Its gentle twin", "body": "“The Tyger” appeared in Songs of Experience as a pair to “The Lamb” in Songs of Innocence. Later the speaker asks: “Did he who made the Lamb make thee?” Blake engraved and hand-coloured each page himself." }
+      {
+        "kind": "Metre",
+        "title": "The hammer beat",
+        "body": "Most lines begin on a stressed syllable and have seven syllables: TY-ger | TY-ger | BURN-ing | BRIGHT. A DUM-da foot is a trochee (扬抑格); four of them make tetrameter; and because the final weak syllable is dropped, the line is called catalectic (截尾的). The result is a short, insistent, almost chanting rhythm, like a blacksmith striking an anvil. That fits the poem perfectly, because the questions are all about making: what hand could “frame” the tiger, what “hammer”, “chain”, “furnace” and “anvil” could forge such a terrifying creature? Blake asks question after question and never answers them, so the poem itself becomes a sort of awe-struck, unanswered prayer."
+      },
+      {
+        "kind": "Trivia",
+        "title": "Its gentle twin",
+        "body": "“The Tyger” appeared in Songs of Experience (1794), as a partner to “The Lamb” in Songs of Innocence (1789). The lamb is gentle and the tiger is fierce, and later in this poem the speaker asks the key question: “Did he who made the Lamb make thee?” How could one creator make both innocence and terror? Blake was also a printmaker. He etched his poems and pictures onto copper plates, printed them, and coloured each copy by hand with his wife Catherine, so every original copy is slightly different. His spelling “Tyger” was already old-fashioned in 1794, which gives the creature a strange, ancient feel."
+      }
     ]
   },
   {
-    "id": "2026-11-17", "date": "2026-11-17", "author": "George Eliot", "work": "Middlemarch", "year": 1872, "level": 5, "form": "prose",
+    "id": "2026-11-17",
+    "date": "2026-11-17",
+    "author": "George Eliot",
+    "work": "Middlemarch",
+    "year": 1872,
+    "level": 5,
+    "form": "prose",
     "text": [
       "But the effect of her being on those around her was incalculably diffusive: for the growing good of the world is partly dependent on unhistoric acts; and that things are not so ill with you and me as they might have been, is half owing to the number who lived faithfully a hidden life, and rest in unvisited tombs."
     ],
     "notes": [
-      { "kind": "Word", "title": "diffusive · unhistoric", "body": "Diffusive = spreading out widely (扩散的；弥漫的); her influence cannot be measured, but it reaches everyone around her. Unhistoric is Eliot’s word for acts no history book will record (不载入史册的). Together they say small, private goodness still changes the world." },
-      { "kind": "Technique", "title": "A sentence that delays its point", "body": "Notice the long middle: “that things are not so ill with you and me as they might have been” is itself the subject of the verb “is half owing”. Holding the key verb back like this makes a periodic sentence (圆周句), which builds weight until the final image of “unvisited tombs”." }
+      {
+        "kind": "Word",
+        "title": "diffusive · unhistoric",
+        "body": "Diffusive means spreading out widely and thinly (扩散的；弥漫的), like perfume in a room. Eliot says the heroine Dorothea’s influence was “incalculably diffusive”: it cannot be measured, but it reaches everyone around her. Unhistoric is Eliot’s own coinage, describing acts that no history book will record (不载入史册的). The point is moral: the world gets better partly because of countless ordinary people who are kind and honest in private and then forgotten, lying in “unvisited tombs”. These are some of the most quoted last lines in English fiction. For your writing, the related word “diffuse” (to spread; also, as an adjective, unfocused) is common in academic English: “to diffuse tension”, “a diffuse argument”."
+      },
+      {
+        "kind": "Technique",
+        "title": "A sentence that delays its point",
+        "body": "Read the second half carefully: “that things are not so ill with you and me as they might have been, is half owing to the number who lived faithfully a hidden life”. The long clause “that things are not so ill…” is actually the subject of the verb “is”. Holding back the main verb like this creates a periodic sentence (圆周句): the meaning stays suspended until late, which gives the ending great weight. Eliot also addresses us directly with “you and me”, pulling the reader into her claim. In formal writing, a well-placed subject clause (“That technology changes work is undeniable; how it changes work is less clear”) shows grammatical range, but keep it clear."
+      }
     ]
   },
   {
-    "id": "2026-11-18", "date": "2026-11-18", "author": "Edgar Allan Poe", "work": "The Raven", "year": 1845, "level": 3, "form": "verse",
+    "id": "2026-11-18",
+    "date": "2026-11-18",
+    "author": "Edgar Allan Poe",
+    "work": "The Raven",
+    "year": 1845,
+    "level": 3,
+    "form": "verse",
     "text": [
       "Once upon a midnight dreary, while I pondered, weak and weary,\nOver many a quaint and curious volume of forgotten lore—\nWhile I nodded, nearly napping, suddenly there came a tapping,\nAs of some one gently rapping, rapping at my chamber door.\n“’Tis some visitor,” I muttered, “tapping at my chamber door—\nOnly this and nothing more.”"
     ],
     "notes": [
-      { "kind": "Metre", "title": "Rhymes inside the line", "body": "Listen for rhymes in the middle of lines: dreary/weary, napping/tapping, rapping. This is internal rhyme (行内韵). The lines are long trochaic octameter, eight DUM-da feet, so the poem feels hypnotic, like a tired mind drifting toward sleep." }
+      {
+        "kind": "Metre",
+        "title": "Rhymes inside the line",
+        "body": "Listen for rhymes in the middle of lines, not just at the end: dreary/weary, napping/tapping/rapping. This is internal rhyme (行内韵), and Poe uses it constantly. The lines themselves are very long: eight DUM-da feet each, called trochaic octameter (扬抑格八音步), which is rare in English. Combined with all the repetition (“rapping, rapping at my chamber door”), the effect is hypnotic, like a tired mind sliding toward sleep or madness. Poe wrote an essay, “The Philosophy of Composition”, claiming he designed the poem almost mathematically, choosing the refrain “Nevermore” because the long o and r sounds are the most melancholy in English. Whether that is true or a clever performance is still debated."
+      }
     ]
   },
   {
-    "id": "2026-11-19", "date": "2026-11-19", "author": "Oscar Wilde", "work": "The Picture of Dorian Gray, Preface", "year": 1891, "level": 3, "form": "prose",
+    "id": "2026-11-19",
+    "date": "2026-11-19",
+    "author": "Oscar Wilde",
+    "work": "The Picture of Dorian Gray, Preface",
+    "year": 1891,
+    "level": 3,
+    "form": "prose",
     "text": [
       "The artist is the creator of beautiful things.",
       "There is no such thing as a moral or an immoral book. Books are well written, or badly written. That is all.",
       "All art is quite useless."
     ],
     "notes": [
-      { "kind": "Technique", "title": "Aphorism", "body": "Each line is a short, confident statement that sounds like a rule: an aphorism (格言). Wilde wrote this preface after critics attacked the novel as immoral, so these sentences are a witty defence. “All art is quite useless” is a paradox (悖论): he means art need not serve any practical purpose to be valuable." }
+      {
+        "kind": "Technique",
+        "title": "Aphorism",
+        "body": "Each line is a short, confident statement that sounds like a universal rule. Such a saying is an aphorism (格言). Wilde wrote this preface for the 1891 book edition of The Picture of Dorian Gray, after critics attacked the magazine version as immoral. So these lines are a witty defence: judge a book by its craft, not by its morals. “All art is quite useless” is a paradox (悖论), a statement that seems absurd but contains a truth. Wilde means that art does not need a practical purpose to be valuable; it exists to be beautiful. Notice the word “quite”: in British English it softens or emphasises, and here it adds an elegant, almost bored tone."
+      }
     ]
   },
   {
-    "id": "2026-11-20", "date": "2026-11-20", "author": "Joseph Conrad", "work": "Heart of Darkness", "year": 1899, "level": 5, "form": "prose",
+    "id": "2026-11-20",
+    "date": "2026-11-20",
+    "author": "Joseph Conrad",
+    "work": "Heart of Darkness",
+    "year": 1899,
+    "level": 5,
+    "form": "prose",
     "text": [
       "Going up that river was like travelling back to the earliest beginnings of the world, when vegetation rioted on the earth and the big trees were kings.",
       "He cried in a whisper at some image, at some vision—he cried out twice, a cry that was no more than a breath: “The horror! The horror!”"
     ],
     "notes": [
-      { "kind": "Word", "title": "rioted", "body": "To riot usually means violent public disorder (暴乱), but here it means grew wildly and without control (肆意生长). The verb makes the jungle feel alive and lawless, and the trees become “kings”." },
-      { "kind": "Technique", "title": "A story inside a story", "body": "The novel is a frame narrative (框架叙事): an unnamed man on a boat on the Thames tells us what Marlow told him about his journey up the Congo. Kurtz’s last words, “The horror!”, reach us second-hand twice over, which keeps their meaning uncertain." }
+      {
+        "kind": "Word",
+        "title": "rioted",
+        "body": "To riot usually means violent public disorder (暴乱): “Fans rioted after the match.” Conrad uses it in a rarer sense: to grow or behave wildly, without control (肆意生长). The vegetation “rioted on the earth”, so the jungle feels alive, noisy and lawless, and “the big trees were kings”. The image of travelling up the river as going “back to the earliest beginnings of the world” reflects how Europeans of the time imagined Africa, a view that the Nigerian novelist Chinua Achebe famously criticised in 1975 as racist. You can use the related phrase “a riot of colour” (色彩缤纷) to describe a vivid scene; it is a common, natural collocation."
+      },
+      {
+        "kind": "Technique",
+        "title": "A story inside a story",
+        "body": "The novel is a frame narrative (框架叙事). An unnamed man on a boat on the River Thames tells us what the sailor Marlow told him and his friends one evening about a journey up the Congo River to find a company agent called Kurtz. So Kurtz’s last words, “The horror! The horror!”, reach us second-hand, twice over: Kurtz to Marlow, Marlow to the narrator, the narrator to us. Each layer adds distance and doubt. What exactly was the horror? Kurtz’s own crimes, colonialism, human nature? Conrad never says. This uncertainty is deliberate, and it is one reason the book is still argued about more than a century later."
+      }
     ]
   },
   {
-    "id": "2026-11-21", "date": "2026-11-21", "author": "W. B. Yeats", "work": "The Lake Isle of Innisfree", "year": 1890, "level": 3, "form": "verse",
+    "id": "2026-11-21",
+    "date": "2026-11-21",
+    "author": "W. B. Yeats",
+    "work": "The Lake Isle of Innisfree",
+    "year": 1890,
+    "level": 3,
+    "form": "verse",
     "text": [
       "I will arise and go now, and go to Innisfree,\nAnd a small cabin build there, of clay and wattles made;\nNine bean-rows will I have there, a hive for the honey-bee,\nAnd live alone in the bee-loud glade.",
       "And I shall have some peace there, for peace comes dropping slow,\nDropping from the veils of the morning to where the cricket sings;\nThere midnight’s all a glimmer, and noon a purple glow,\nAnd evening full of the linnet’s wings.",
       "I will arise and go now, for always night and day\nI hear lake water lapping with low sounds by the shore;\nWhile I stand on the roadway, or on the pavements grey,\nI hear it in the deep heart’s core."
     ],
     "notes": [
-      { "kind": "Trivia", "title": "Homesick on Fleet Street", "body": "Yeats said the poem came to him in London, walking down Fleet Street, when he saw a little ball balanced on a jet of water in a shop window and remembered lake water. Innisfree is a real, tiny island in Lough Gill, County Sligo, in Ireland." },
-      { "kind": "Technique", "title": "Hear the water", "body": "“lake water lapping with low sounds by the shore”: four l sounds in a row. Repeating opening consonants is alliteration (头韵), and here it imitates the soft lap of water. Compare the hard “roadway” and “pavements grey” of the city." }
+      {
+        "kind": "Trivia",
+        "title": "Homesick on Fleet Street",
+        "body": "Yeats wrote this poem in 1888, aged 23, while living in London. He later said it came to him walking down Fleet Street, when he saw a small ball balanced on a jet of water in a shop window and suddenly remembered the sound of lake water at home. Innisfree is a real, tiny, uninhabited island in Lough Gill, County Sligo, in the west of Ireland, where he spent childhood summers. As a teenager he had been inspired by Thoreau’s Walden (our excerpt on 13 November) and dreamed of living alone on the island. Yeats later complained that this early poem was so popular that audiences always asked him to read it."
+      },
+      {
+        "kind": "Technique",
+        "title": "Hear the water",
+        "body": "“I hear lake water lapping with low sounds by the shore”: four l sounds in quick succession. Repeating the opening consonant of nearby words is alliteration (头韵), and here it imitates the soft, regular lap of water against stones. Compare the hard, grey city words in the next line, “roadway” and “pavements grey”, where the speaker actually stands. The poem contrasts the dream place with the real place without ever saying “I am unhappy in London”. Notice also the long, slow lines and the old-fashioned phrasing, “I will arise and go now”, which echoes the Bible (the Prodigal Son says “I will arise and go to my father”) and gives the wish a solemn, almost religious tone."
+      }
     ]
   },
   {
-    "id": "2026-11-22", "date": "2026-11-22", "author": "Emily Brontë", "work": "Wuthering Heights", "year": 1847, "level": 3, "form": "prose",
+    "id": "2026-11-22",
+    "date": "2026-11-22",
+    "author": "Emily Brontë",
+    "work": "Wuthering Heights",
+    "year": 1847,
+    "level": 3,
+    "form": "prose",
     "text": [
       "“Whatever our souls are made of, his and mine are the same; and Linton’s is as different as a moonbeam from lightning, or frost from fire.”",
       "“My love for Linton is like the foliage in the woods: time will change it, I’m well aware, as winter changes the trees. My love for Heathcliff resembles the eternal rocks beneath: a source of little visible delight, but necessary. Nelly, I am Heathcliff!”"
     ],
     "notes": [
-      { "kind": "Technique", "title": "Similes in pairs", "body": "Catherine explains her feelings through paired comparisons: moonbeam vs lightning, frost vs fire, leaves vs rocks. Each simile (明喻) sets something gentle and changing against something wild or permanent. The last line drops comparison altogether: not “like” Heathcliff, but “I am Heathcliff”." }
+      {
+        "kind": "Technique",
+        "title": "Similes in pairs",
+        "body": "Catherine explains her feelings through paired comparisons: a moonbeam versus lightning, frost versus fire, leaves versus rocks. Each simile (明喻) sets something gentle, changeable or pleasant against something wild, permanent or necessary. Her love for Linton is like foliage: pretty, but winter will change it. Her love for Heathcliff is like the rocks underneath: not beautiful, but the ground everything stands on. Then, at the climax, she drops comparison completely: not “like” Heathcliff but “I am Heathcliff!” Moving from simile to direct identity is a strong rhetorical step, and it shows that, for her, the connection goes deeper than love. Tragically, she says this just before deciding to marry Linton anyway."
+      }
     ]
   },
   {
-    "id": "2026-11-23", "date": "2026-11-23", "author": "William Shakespeare", "work": "Macbeth, Act 5 Scene 5", "year": 1606, "level": 4, "form": "verse",
+    "id": "2026-11-23",
+    "date": "2026-11-23",
+    "author": "William Shakespeare",
+    "work": "Macbeth, Act 5 Scene 5",
+    "year": 1606,
+    "level": 4,
+    "form": "verse",
     "text": [
       "Tomorrow, and tomorrow, and tomorrow,\nCreeps in this petty pace from day to day,\nTo the last syllable of recorded time;\nAnd all our yesterdays have lighted fools\nThe way to dusty death. Out, out, brief candle!\nLife’s but a walking shadow, a poor player,\nThat struts and frets his hour upon the stage,\nAnd then is heard no more. It is a tale\nTold by an idiot, full of sound and fury,\nSignifying nothing."
     ],
     "notes": [
-      { "kind": "Metre", "title": "Blank verse that breaks down", "body": "This is blank verse (无韵诗): unrhymed iambic pentameter. But the first line has an extra weak syllable and three heavy “tomorrows”, so it drags, like the days. The final line, “Signifying nothing”, is only half a line long, and the silence after it is part of the meaning." },
-      { "kind": "Trivia", "title": "A famous borrowed title", "body": "William Faulkner took the title of his novel The Sound and the Fury (1929) from this speech. Macbeth says it just after hearing that his wife is dead." }
+      {
+        "kind": "Metre",
+        "title": "Blank verse that breaks down",
+        "body": "This is blank verse (无韵诗): unrhymed iambic pentameter, the standard line of Shakespeare’s plays. But listen to the first line: “TO-mor-row, and TO-mor-row, and TO-mor-row”. It has an extra weak syllable at the end and three heavy, identical words, so it drags, just as the days now drag for Macbeth. The sentences also run over the line endings (“have lighted fools / The way to dusty death”), a technique called enjambment (跨行). And the speech ends with “Signifying nothing”, only half a line long. The missing beats create a silence, and that empty space is part of the meaning: life, Macbeth says, adds up to nothing."
+      },
+      {
+        "kind": "Trivia",
+        "title": "A famous borrowed title",
+        "body": "Macbeth speaks these lines in Act 5, moments after hearing that his wife, Lady Macbeth, is dead, and just before the final battle. Their images of a “brief candle”, a “walking shadow” and a “poor player” (a bad actor) have inspired many later writers. William Faulkner took the title of his 1929 novel The Sound and the Fury from this speech; fittingly, its first section is narrated by a character with a learning disability, “a tale told by an idiot”. Robert Frost’s poem “Out, Out—” borrows another phrase from the same lines. The idea of life as a stage performance also echoes Jaques’s “All the world’s a stage” in As You Like It."
+      }
     ]
   },
   {
-    "id": "2026-11-24", "date": "2026-11-24", "author": "Walt Whitman", "work": "Song of Myself", "year": 1855, "level": 3, "form": "verse",
+    "id": "2026-11-24",
+    "date": "2026-11-24",
+    "author": "Walt Whitman",
+    "work": "Song of Myself",
+    "year": 1855,
+    "level": 3,
+    "form": "verse",
     "text": [
       "I celebrate myself, and sing myself,\nAnd what I assume you shall assume,\nFor every atom belonging to me as good belongs to you.",
       "I loafe and invite my soul,\nI lean and loafe at my ease observing a spear of summer grass."
     ],
     "notes": [
-      { "kind": "Metre", "title": "Free verse", "body": "No regular beat and no rhyme: this is free verse (自由诗), and Whitman was one of its pioneers. The rhythm comes instead from repetition (“myself … myself”, “loafe … loafe”) and from long, breathing lines, closer to the Bible’s psalms than to sonnets." }
+      {
+        "kind": "Metre",
+        "title": "Free verse",
+        "body": "No regular beat and no rhyme: this is free verse (自由诗), and Whitman was one of its pioneers in English. Readers in 1855 were shocked; many did not think it was poetry at all. The rhythm comes from other sources instead: repetition (“myself … myself”, “loafe … loafe”), parallel structure (“I celebrate … and sing”), and long lines that follow the length of a breath. Scholars often compare this to the parallelism of the Bible’s Psalms. Notice the confident, democratic message: “every atom belonging to me as good belongs to you.” The speaker is himself and also everyone. Whitman revised Leaves of Grass for almost forty years; “loafe” is his deliberate old spelling of “loaf”, meaning to relax lazily."
+      }
     ]
   },
   {
-    "id": "2026-11-25", "date": "2026-11-25", "author": "Charles Dickens", "work": "A Christmas Carol", "year": 1843, "level": 3, "form": "prose",
+    "id": "2026-11-25",
+    "date": "2026-11-25",
+    "author": "Charles Dickens",
+    "work": "A Christmas Carol",
+    "year": 1843,
+    "level": 3,
+    "form": "prose",
     "text": [
       "Marley was dead: to begin with. There is no doubt whatever about that. The register of his burial was signed by the clergyman, the clerk, the undertaker, and the chief mourner. Scrooge signed it: and Scrooge’s name was good upon ’Change, for anything he chose to put his hand to.",
       "Old Marley was as dead as a door-nail."
     ],
     "notes": [
-      { "kind": "Technique", "title": "A chatty, comic narrator", "body": "The narrator insists, almost too much, that Marley is dead, listing every signature on the register like a lawyer. This mock-serious tone (故作正经的语气) is funny, and it also sets up the surprise: a ghost story needs us to be certain the man is gone." },
-      { "kind": "Word", "title": "’Change · door-nail", "body": "’Change is short for the Exchange, the place where merchants traded (交易所); Scrooge’s name being “good upon ’Change” means his credit was trusted. “As dead as a door-nail” (彻底死了) is still a common idiom; the narrator even jokes that he doesn’t know what is so dead about a door-nail." }
+      {
+        "kind": "Technique",
+        "title": "A chatty, comic narrator",
+        "body": "The narrator insists, almost too much, that Marley is dead. He lists every person who signed the burial register, adds that Scrooge signed too, and finishes with the idiom “as dead as a door-nail”. This mock-serious tone (故作正经的语气) is funny, like a friend over-explaining at a dinner party. It also has a structural job: a ghost story only works if we are completely sure the man is gone, so that his return later is truly shocking. Right after this passage, the narrator even jokes that he can’t see what is especially dead about a door-nail and would think a coffin-nail deader. Dickens wanted the book read aloud to families, so the voice is deliberately conversational."
+      },
+      {
+        "kind": "Word",
+        "title": "’Change · door-nail",
+        "body": "’Change is short for the Exchange, the Royal Exchange in the City of London, where merchants met to trade (交易所). To say Scrooge’s name “was good upon ’Change” means his signature was trusted for credit: if he promised to pay, people believed him. This tells us he is rich and respected in business, whatever his personal faults. “As dead as a door-nail” (彻底死了) is an idiom still used today, about people or things: “The project is dead as a doornail.” A door-nail was a large nail hammered into a door and bent over, so it could never be used again. Similar idioms: “dead as a dodo”, “stone dead”."
+      }
     ]
   },
   {
-    "id": "2026-11-26", "date": "2026-11-26", "author": "William Shakespeare", "work": "Hamlet, Act 3 Scene 1", "year": 1600, "level": 4, "form": "verse",
+    "id": "2026-11-26",
+    "date": "2026-11-26",
+    "author": "William Shakespeare",
+    "work": "Hamlet, Act 3 Scene 1",
+    "year": 1600,
+    "level": 4,
+    "form": "verse",
     "text": [
       "To be, or not to be, that is the question:\nWhether ’tis nobler in the mind to suffer\nThe slings and arrows of outrageous fortune,\nOr to take arms against a sea of troubles\nAnd by opposing end them. To die—to sleep,\nNo more; and by a sleep to say we end\nThe heart-ache and the thousand natural shocks\nThat flesh is heir to: ’tis a consummation\nDevoutly to be wish’d."
     ],
     "notes": [
-      { "kind": "Technique", "title": "A deliberately mixed metaphor", "body": "You cannot fight the sea with weapons: “take arms against a sea of troubles” mixes two images (混合隐喻). Some editors once tried to “correct” it, but the clash is the point. Fighting endless troubles is as hopeless as attacking waves." },
-      { "kind": "Word", "title": "consummation", "body": "A completion or perfect ending (圆满结局；完成). Hamlet means death would be an end “devoutly to be wished”, one we should sincerely pray for. Modern use is formal: “the consummation of years of work”." }
+      {
+        "kind": "Technique",
+        "title": "A deliberately mixed metaphor",
+        "body": "You cannot defeat the sea with weapons, so “take arms against a sea of troubles” mixes two images that don’t fit together, a mixed metaphor (混合隐喻). Eighteenth-century editors even tried to “correct” it to “a siege of troubles”. But the clash is the point. Fighting life’s endless problems is as hopeless as attacking waves with a sword, and that is exactly Hamlet’s dilemma: should he endure, or act, perhaps fatally? The whole speech is built on such balanced alternatives: “to be, or not to be”, “to suffer … or to take arms”. In your own writing, avoid mixed metaphors, which usually look careless; Shakespeare gets away with this one because it is deliberate."
+      },
+      {
+        "kind": "Word",
+        "title": "consummation",
+        "body": "A completion or perfect ending (圆满结局；完成). Hamlet calls death “a consummation / Devoutly to be wish’d”: an ending we should sincerely, almost religiously, wish for, because it would end “the heart-ache and the thousand natural shocks / That flesh is heir to”. “Devoutly” (虔诚地) adds the religious note, and the next lines show his fear: in death, “what dreams may come”? Today “consummation” is formal and appears in phrases like “the consummation of years of work”. The verb “consummate” and the adjective “consummate” (/ˈkɒnsəmət/, meaning highly skilled: “a consummate professional”) are useful, high-level vocabulary for Task 2."
+      }
     ]
   },
   {
-    "id": "2026-11-27", "date": "2026-11-27", "author": "Jane Austen", "work": "Emma", "year": 1815, "level": 3, "form": "prose",
+    "id": "2026-11-27",
+    "date": "2026-11-27",
+    "author": "Jane Austen",
+    "work": "Emma",
+    "year": 1815,
+    "level": 3,
+    "form": "prose",
     "text": [
       "Emma Woodhouse, handsome, clever, and rich, with a comfortable home and happy disposition, seemed to unite some of the best blessings of existence; and had lived nearly twenty-one years in the world with very little to distress or vex her."
     ],
     "notes": [
-      { "kind": "Technique", "title": "The warning in “seemed”", "body": "Everything sounds perfect, until one small verb: she seemed to have the best blessings. Austen quietly tells us appearances will be tested. A life with “very little to distress or vex her” also means Emma has never had to learn from mistakes, which is exactly what the novel will make her do." }
+      {
+        "kind": "Technique",
+        "title": "The warning in “seemed”",
+        "body": "Everything in this opening sounds perfect: Emma is “handsome, clever, and rich”, with a good home and a happy nature. Then comes one small, careful verb: she seemed to unite the best blessings of existence. That word quietly tells us that appearances will be tested. The second half adds another hint: she has lived nearly twenty-one years “with very little to distress or vex her”. In other words, she has never had to learn from failure, which is exactly what the novel will make her do as she meddles in her friends’ love lives. Austen often hides her judgement in tiny words like “seemed”, so read her slowly."
+      }
     ]
   },
   {
-    "id": "2026-11-28", "date": "2026-11-28", "author": "Emily Dickinson", "work": "Because I could not stop for Death", "year": 1863, "level": 4, "form": "verse",
+    "id": "2026-11-28",
+    "date": "2026-11-28",
+    "author": "Emily Dickinson",
+    "work": "Because I could not stop for Death",
+    "year": 1863,
+    "level": 4,
+    "form": "verse",
     "text": [
       "Because I could not stop for Death –\nHe kindly stopped for me –\nThe Carriage held but just Ourselves –\nAnd Immortality.",
       "We slowly drove – He knew no haste\nAnd I had put away\nMy labor and my leisure too,\nFor His Civility –"
     ],
     "notes": [
-      { "kind": "Technique", "title": "Death as a gentleman", "body": "Death is not a monster here but a polite gentleman caller who “kindly” stops and drives slowly. This calm personification (拟人) is unsettling precisely because it is so courteous. The speaker is too busy to stop for Death, so Death makes time for her." },
-      { "kind": "Metre", "title": "Hymn rhythm", "body": "The stanzas alternate lines of four and three beats (8 and 6 syllables), the common metre (普通韵律) of church hymns. Dickinson grew up singing hymns, and she often borrows their rhythm for very unhymn-like thoughts." }
+      {
+        "kind": "Technique",
+        "title": "Death as a gentleman",
+        "body": "Death is not a skeleton or a monster here but a polite gentleman caller who “kindly” stops his carriage for the speaker and drives slowly, because he “knew no haste”. Giving death human manners is personification (拟人), and the calm, courteous tone is precisely what makes the poem unsettling. The speaker was too busy to stop for Death, so Death made time for her. Notice who else is in the carriage: “Immortality”. Is this a romantic outing, a funeral procession, or a journey to the afterlife? Dickinson leaves it ambiguous. Later stanzas pass a school, fields of grain and the setting sun, a quiet summary of a whole life."
+      },
+      {
+        "kind": "Metre",
+        "title": "Hymn rhythm",
+        "body": "The stanzas alternate lines of four beats and three beats (eight and six syllables): “be-CAUSE | i COULD | not STOP | for DEATH / he KIND | ly STOPPED | for ME”. This pattern is common metre (普通韵律), also called ballad metre, the rhythm of many church hymns such as “Amazing Grace”. Dickinson grew up in a religious family in Amherst, Massachusetts, singing hymns every week, and she often borrows their rhythm for very un-hymn-like thoughts about doubt and death. Her rhymes are often slant rhymes (近似韵), such as “away / Civility”, close but not exact, which keeps the familiar tune slightly off balance."
+      }
     ]
   },
   {
-    "id": "2026-11-29", "date": "2026-11-29", "author": "Herman Melville", "work": "Bartleby, the Scrivener", "year": 1853, "level": 3, "form": "prose",
+    "id": "2026-11-29",
+    "date": "2026-11-29",
+    "author": "Herman Melville",
+    "work": "Bartleby, the Scrivener",
+    "year": 1853,
+    "level": 3,
+    "form": "prose",
     "text": [
       "At first Bartleby did an extraordinary quantity of writing. As if long famishing for something to copy, he seemed to gorge himself on my documents.",
       "“I would prefer not to.”"
     ],
     "notes": [
-      { "kind": "Technique", "title": "Five polite words", "body": "Bartleby, a copying clerk, answers every request with “I would prefer not to.” It is soft, grammatical and courteous, yet it is a total refusal. This understatement (轻描淡写) unsettles his employer far more than shouting would. The phrase is now quoted as a symbol of passive resistance." }
+      {
+        "kind": "Technique",
+        "title": "Five polite words",
+        "body": "Bartleby, a clerk who copies legal documents, starts out as a tireless worker. Then, asked to check a copy, he replies, “I would prefer not to.” He goes on to answer almost every request the same way, until he stops working entirely but refuses to leave the office. The sentence is soft, grammatical and courteous, yet it is a complete refusal. This understatement (轻描淡写) unsettles his employer, the narrator, far more than an angry “No” would, because there is nothing to argue with. Melville’s story has been read as a picture of workplace alienation, depression, and passive resistance, and the phrase is still quoted today. Note the polite structure “would prefer (not) to” itself: it is useful and natural in professional emails."
+      }
     ]
   }
 ]

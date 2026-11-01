@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#E7EBEC"/>
+  <path d="M232 250h560a70 70 0 0 1 70 70v330a70 70 0 0 1-70 70H470l-150 120v-120h-88a70 70 0 0 1-70-70V320a70 70 0 0 1 70-70z" fill="#3B7A63"/>
+  <text x="512" y="590" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-weight="700" font-size="300" fill="#FFFFFF">Aa</text>
+</svg>

@@ -5,6 +5,38 @@ import { PALETTE } from '../theme.js';
 import { backLink, empty } from './common.js';
 
 const SIZES = [15, 16, 17, 18, 19, 20, 22];
+const APP_URL = 'https://claude.ai/artifact/5c81mtfKm7dcCxmmjR2F7R';
+// Home-screen icon options (sources in assets/icons/, uploaded to this artifact's asset store).
+const ICONS = [
+  ['Serif E', '31b6695535dfaef8488e0f2c6b204e16'],
+  ['Open book', 'd2c7632112557b8dd70e08697acd9503'],
+  ['Aa bubble', '9b3639f509919e20445845aa04665d3a'],
+  ['Pen nib', '30d462484e1410fe5a43480da48d8cc5'],
+  ['En. (dark)', '3975fc834edc804faa85f6e1460592fc'],
+];
+
+function iconSection() {
+  const urlText = h('code', { class: 'app-url' }, APP_URL);
+  const copy = h('button', { class: 'btn ghost small', onclick: () => {
+    navigator.clipboard.writeText(APP_URL).then(() => toast('Link copied'), () => {
+      const r = document.createRange(); r.selectNodeContents(urlText);
+      const s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+      toast('Link selected — tap Copy');
+    });
+  } }, 'Copy app link');
+  return h('section', { class: 'section' }, h('h2', null, 'Home screen icon'),
+    h('p', { class: 'muted small' }, 'Safari always uses Claude’s icon for links to claude.ai. To get your own icon, open the app through a Shortcut instead.'),
+    h('div', { class: 'icon-grid' }, ...ICONS.map(([name, id]) => h('figure', { class: 'icon-opt' },
+      h('img', { src: '/_blob/' + id, alt: name + ' icon', width: '120', height: '120' }),
+      h('figcaption', null, name)))),
+    h('ol', { class: 'steps small' },
+      h('li', null, 'Press and hold the icon you like, then tap “Save to Photos”.'),
+      h('li', null, 'Copy the app link below.'),
+      h('li', null, 'Open the Shortcuts app → + → Add Action → “Open URLs”, and paste the link.'),
+      h('li', null, 'Tap the shortcut’s name at the top → Add to Home Screen → tap the small icon → Choose Photo → pick the saved icon → Add.'),
+      h('li', null, 'Remove the old Safari bookmark from your Home Screen.')),
+    h('div', { class: 'card stack' }, urlText, copy));
+}
 
 export default {
   tab: 'today', deps: ['inbox', 'words', 'essays', 'episodes', 'submissions'], title: () => 'Preferences',
@@ -56,6 +88,7 @@ export default {
         h('p', { class: 'sample-text' }, 'In my view, public transport deserves the larger share of investment.')),
       h('section', { class: 'card stack' }, h('p', { class: 'label' }, 'ACCENT COLOUR'), swatches),
       h('section', { class: 'card stack' }, h('p', { class: 'label' }, 'APPEARANCE'), theme),
+      iconSection(),
       h('section', { class: 'section' }, h('h2', null, 'Ask Claude Code'),
         h('p', { class: 'muted small' }, 'Requests wait here until you open Claude Code on your Mac and say “check my inbox”.'),
         box, send,

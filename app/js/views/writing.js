@@ -53,7 +53,11 @@ function figureView(fig) {
       h('ol', { class: 'steps' }, ...fig.items.map((s) => h('li', null, s))));
   }
   if (fig.kind === 'image' && fig.assetId) {
-    return h('figure', { class: 'figure' }, h('img', { src: '/_blob/' + fig.assetId, alt: fig.caption || 'Task 1 figure' }), fig.caption ? h('figcaption', null, fig.caption) : null);
+    // Tap to open full size: scanned charts are hard to read at phone width.
+    const src = '/_blob/' + fig.assetId;
+    return h('figure', { class: 'figure' },
+      h('a', { href: src, target: '_blank', rel: 'noopener', title: 'Open full size' }, h('img', { src, alt: fig.caption || 'Task 1 figure' })),
+      fig.caption ? h('figcaption', null, fig.caption) : null);
   }
   return null;
 }
@@ -73,7 +77,8 @@ export const essay = {
       figureView(e.figure),
       reader(e.body || [], src, { className: 'prose' }),
       h('p', { class: 'muted small' }, `${countWords((e.body || []).join(' '))} words`),
-      e.examiner ? h('details', { class: 'examiner' }, h('summary', null, 'Examiner comment'), h('p', null, e.examiner)) : null,
+      e.examiner ? h('details', { class: 'examiner' }, h('summary', null, 'Examiner comment'),
+        ...e.examiner.split(/\n\s*\n/).map((p) => h('p', null, p))) : null,
       h('p', { class: 'source' }, 'Source: ' + (e.source || 'unknown')),
       h('button', { class: 'btn primary block', onclick: () => startDraft({ task: e.task, prompt: e.prompt, essayId: e.id }) }, icon('pen', 20), 'Write this prompt yourself'));
   },

@@ -36,7 +36,7 @@ SRS rules (`app/js/srs.js`): intervals 1, 2, 4, 7, 15, 30 days. *Know it* moves 
 | figure | object \| null | Task 1 data: `{kind:"table", caption, columns:[...], rows:[[...]]}` or `{kind:"image", assetId, caption}` or `{kind:"steps", caption, items:[...]}` |
 | body | string[] | paragraphs |
 | band | number \| null | only for official band-scored scripts |
-| kind | "examiner" \| "candidate" \| "model" | examiner model answer / real candidate script / Claude-written model |
+| kind | "examiner" \| "candidate" | examiner (or named examiner-author) model answer / real candidate script. No Claude-written models. |
 | examiner | string | examiner comment, if published; paragraphs separated by a blank line |
 | author | string? | named model writer (e.g. "Simon"); the list then shows "Simon model" |
 | notesTitle | string? | heading for the `examiner` text when it isn't an examiner comment (e.g. "Structure notes") |

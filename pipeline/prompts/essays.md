@@ -1,6 +1,6 @@
 # Adding model essays
 
-Documents `essays/<id>`, shape in `data/schema.md`. Ids: `c<book>-t<test>-task<n>` for Cambridge (e.g. `c18-t2-task2`), `o-<slug>` for official samples, `m-<slug>` for Claude-written models.
+Documents `essays/<id>`, shape in `data/schema.md`. Ids: `c<book>-t<test>-task<n>` for Cambridge (e.g. `c18-t2-task2`), `o-<slug>` for official samples.
 
 ## From Cambridge IELTS e-books the learner provides
 The learner's books 4–20 are in `~/study/书籍/雅思/真题4-20/`. Never download books from the internet, and never commit the book text to this repo (it is copyrighted): it goes only into the app's private database.
@@ -22,7 +22,7 @@ Steps:
 IELTS.org, British Council, IDP sample scripts, and ielts-simon.com. Fetch the page, copy prompt + answer exactly, set `source` with the page title and URL. Personal study use only; always keep the source.
 
 ## Claude-written models
-Only when asked. Band 8–9 style, natural rather than showy, 260–320 words (Task 2) or 170–200 (Task 1); `kind: "model"`, `band: null`, `source` says it was written by Claude.
+Don't add them. The learner removed all eight on 2026-11-02 and wants only real essays (Cambridge, Simon, official samples).
 
 ## From the learner's Simon collections
 Files in `~/study/书籍/雅思/雅思Simon大作文28篇批注版pdf Simon范文批注版/` (text PDFs, no OCR needed):

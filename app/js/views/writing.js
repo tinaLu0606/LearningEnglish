@@ -6,7 +6,7 @@ import { reader } from '../components/reader.js';
 import { pageHead, backLink, subnav, empty, loading, saveButton, tag } from './common.js';
 
 const SUBNAV = [['writing', 'Model Essays'], ['write', 'Write'], ['feedback', 'Feedback']];
-const kindLabel = (e) => (e.author ? e.author + ' model' : e.kind === 'examiner' ? 'Examiner model' : e.kind === 'candidate' ? 'Candidate script' : 'Claude model');
+const kindLabel = (e) => (e.author ? e.author + ' model' : e.kind === 'examiner' ? 'Examiner model' : 'Candidate script');
 const byAdded = (a, b) => ((b.added || '') > (a.added || '') ? 1 : -1);
 
 // ---------- Model essays ----------

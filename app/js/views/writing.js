@@ -6,7 +6,7 @@ import { reader } from '../components/reader.js';
 import { pageHead, backLink, subnav, empty, loading, saveButton, tag } from './common.js';
 
 const SUBNAV = [['writing', 'Model Essays'], ['write', 'Write'], ['feedback', 'Feedback']];
-const kindLabel = (e) => (e.kind === 'examiner' ? 'Examiner model' : e.kind === 'candidate' ? 'Candidate script' : 'Claude model');
+const kindLabel = (e) => (e.author ? e.author + ' model' : e.kind === 'examiner' ? 'Examiner model' : e.kind === 'candidate' ? 'Candidate script' : 'Claude model');
 const byAdded = (a, b) => ((b.added || '') > (a.added || '') ? 1 : -1);
 
 // ---------- Model essays ----------
@@ -77,7 +77,7 @@ export const essay = {
       figureView(e.figure),
       reader(e.body || [], src, { className: 'prose' }),
       h('p', { class: 'muted small' }, `${countWords((e.body || []).join(' '))} words`),
-      e.examiner ? h('details', { class: 'examiner' }, h('summary', null, 'Examiner comment'),
+      e.examiner ? h('details', { class: 'examiner' }, h('summary', null, e.notesTitle || 'Examiner comment'),
         ...e.examiner.split(/\n\s*\n/).map((p) => h('p', null, p))) : null,
       h('p', { class: 'source' }, 'Source: ' + (e.source || 'unknown')),
       h('button', { class: 'btn primary block', onclick: () => startDraft({ task: e.task, prompt: e.prompt, essayId: e.id }) }, icon('pen', 20), 'Write this prompt yourself'));

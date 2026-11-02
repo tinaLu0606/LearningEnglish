@@ -3,7 +3,7 @@
 Documents `essays/<id>`, shape in `data/schema.md`. Ids: `c<book>-t<test>-task<n>` for Cambridge (e.g. `c18-t2-task2`), `o-<slug>` for official samples, `m-<slug>` for Claude-written models.
 
 ## From Cambridge IELTS e-books the learner provides
-The learner's books 4–20 are in `~/study/书籍/真题4-20/`. Never download books from the internet, and never commit the book text to this repo (it is copyrighted): it goes only into the app's private database.
+The learner's books 4–20 are in `~/study/书籍/雅思/真题4-20/`. Never download books from the internet, and never commit the book text to this repo (it is copyrighted): it goes only into the app's private database.
 
 **Already imported** (2026-11-02, 16 essays): Cambridge 18 Tests 1–4 and Cambridge 20 Tests 1–4, both tasks. Cambridge 18 is special: 6 of its 8 answers are examiner-written models ("an example of a very good answer"), the best band-8 reference. Cambridge 17, 19 and 20 have only candidate scripts (band 5–7.5). Keep each import small; ask before adding another book.
 
@@ -23,3 +23,9 @@ IELTS.org, British Council, IDP sample scripts, and ielts-simon.com. Fetch the p
 
 ## Claude-written models
 Only when asked. Band 8–9 style, natural rather than showy, 260–320 words (Task 2) or 170–200 (Task 1); `kind: "model"`, `band: null`, `source` says it was written by Claude.
+
+## From the learner's Simon collections
+Files in `~/study/书籍/雅思/雅思Simon大作文28篇批注版pdf Simon范文批注版/` (text PDFs, no OCR needed):
+- `考官Simon大作文范文28篇(批注版).pdf`: 28 Task 2 essays by Simon (former examiner), one per page, with inline Chinese move labels (转述题目, 中心句, …) and colour marks (red = less common words, blue = words tied to the question; bold and underline do not survive extraction). Ids `s-t2-<slug>`, `kind: "examiner"`, `author: "Simon"`, `notesTitle: "Structure notes"`. Strip the labels from `body` and keep them as a paragraph-by-paragraph outline in `examiner`, plus the red words and any editor's position note. Split paragraphs by line gaps (PDFKit `selectionsByLine`, gap > 28pt), and check the word count against Simon's printed "(N words)".
+  **Imported** (2026-11-02, 12): #1 films, #4 salary, #5 animal testing, #7 teen volunteering, #9 video games, #10 life expectancy, #12 technology, #18 languages, #22 traffic, #23 business, #24 cities, #25 living alone. Skipped #14 (obsolete question type), #17 and #26 (same topic as Cambridge 18). The other 13 are available.
+- `SIMON小作文45篇.pdf`: Task 1 blog posts. Many are partial (introduction and overview only) and the charts are images, so each needs a crop. Not imported yet.
